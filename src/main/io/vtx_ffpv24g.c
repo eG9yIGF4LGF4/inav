@@ -114,9 +114,10 @@ const char * ffpvBandLetters = "-AB";
 
 const uint16_t ffpvFrequencyTable[VTX_FFPV_BAND_COUNT][VTX_FFPV_CHANNEL_COUNT] =
 {
-    { 2410, 2430, 2450, 2470, 2370, 2390, 2490, 2510 }, // FFPV 2.4 A
-    { 2414, 2432, 2450, 2468, 2411, 2433, 2453, 2473 }, // FFPV 2.4 A
+    { 2700, 2720, 2740, 2760, 2780, 2800, 2820, 2840 }, // FFPV 2.4 A
+    { 2860, 2880, 2900, 2920, 2940, 2960, 2980, 3000 }, // FFPV 2.4 A
 };
+
 
 const char * const ffpvChannelNames[VTX_FFPV_CHANNEL_COUNT + 1] = {
     "-", "1", "2", "3", "4", "5", "6", "7", "8",
